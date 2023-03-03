@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the class when hovered 1`] = `
+[
+  <label>x
+    nothing was clicked
+  </label>,
+  <button
+    onClick={[Function]}
+  >
+    button1
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    button2
+  </button>,
+]
+`;
+
+exports[`changes the class when hovered 2`] = `
+[
+  <label>
+    button1 was clicked
+  </label>,
+  <button
+    onClick={[Function]}
+  >
+    button1
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    button2
+  </button>,
+]
+`;
+
+exports[`changes the class when hovered 3`] = `
+[
+  <label>
+    button2 was clicked
+  </label>,
+  <button
+    onClick={[Function]}
+  >
+    button1
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    button2
+  </button>,
+]
+`;
